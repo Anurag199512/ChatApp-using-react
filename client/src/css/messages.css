@@ -1,0 +1,33 @@
+/* #textMsg{
+    overflow: auto;
+    flex: auto;
+    background-color: #F3F3F3;
+    border:2px;
+    margin: 8px;
+    border-radius: 20px;
+    max-width: 70%;
+    padding: 5px;
+   
+} */
+.sender{
+    display: inline-block;
+    color: #F3F3F3;
+    border:2px;
+    margin: 3px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color:rgb(15, 150, 76);
+    align-items: right;
+}
+
+.receiver{
+    display: inline-block;
+    background-color: rgba(27, 79, 192, 0.719);
+    border:2px;
+    margin: 3px;
+    border-radius: 20px;
+    padding: 5px;
+    color:#F3F3F3;
+    text-align: left;
+    align-items: left;
+}
