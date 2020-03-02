@@ -16,12 +16,12 @@ Run both client and server side below in 2 terminals
 
 
 
-### `OR You can just run the below commands from root of the folder`
+### `Approach no 2- You can just run the below commands from root of the folder in 2 different terminal one at a time`
     
     1  cd server && yarn install
     2  cd client && yarn install
 
-### `After running above 2 commands run below in 2different terminal windows from root directory`
+### `After running above 2 commands run below in 2 different terminal windows from root directory`
 
     1  cd server && yarn run start
     2  cd client && yarn run start
