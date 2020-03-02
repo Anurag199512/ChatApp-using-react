@@ -22,14 +22,19 @@ const addUser = (id, name, room) => {
 
 const removeUser = (id) => {
 
-  const removedUser=users.filter((user) =>{ 
+  // const removedUser=users.filter((user) =>{ 
     
-    if(user.id === id)
-      return true
-    else return false
-  });
-  return removedUser;
+  //   if(user.id === id)
+  //     return true
+  //   else return false
+  // });
+  // users=removedUser;
 
+  // return removedUser;
+
+  const index = users.findIndex((user) => user.id === id);
+
+  if(index !== -1) return users.splice(index, 1)[0];
 }
 
 const getUser = (id) => users.find((user) => user.id === id);

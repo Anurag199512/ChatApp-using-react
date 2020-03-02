@@ -8,8 +8,8 @@ const Messages = (props) => (
             {
                 var display=(<div>
                     {
-                        message.user===props.name?(<div key={i} id="textMsg"  className="sender">{message.text}</div>)
-                        :(<div key={i} className="receiver" id="textMsg">{message.text}</div>)
+                        message.user===props.name?(<div><div key={i} id="textMsg"  className="sender">{message.text}</div></div>)
+                        :(<div><div key={i} className="receiver" id="textMsg">{message.text}</div><div className="user">from {message.user}</div></div>)
                     }        
                     
                     </div>)

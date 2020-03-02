@@ -14,7 +14,7 @@
     color: #F3F3F3;
     border:2px;
     margin: 3px;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 5px;
     background-color:rgb(15, 150, 76);
     align-items: right;
@@ -25,9 +25,18 @@
     background-color: rgba(27, 79, 192, 0.719);
     border:2px;
     margin: 3px;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 5px;
     color:#F3F3F3;
     text-align: left;
     align-items: left;
+}
+
+.user{
+    display: inline;
+    font-size: 10px;
+    color:#F3F3F3;
+    background-color: grey;
+    border-radius: 20px;
+    padding: 5px;
 }

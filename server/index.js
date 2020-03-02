@@ -19,7 +19,7 @@ for (let i = 0; i < numCPUs; i++) {
 
 
 app.get('/', function(req, res){
-	res.send('');
+	res.send('Server is running....');
 });
 
 io.sockets.on("connection",function(socket){
@@ -53,7 +53,7 @@ io.sockets.on("connection",function(socket){
 
     socket.on('disconnect', function () {
         const user = utils.removeUser(socket.id);
-        
+
         if(user) {
           socket.broadcast.to(user.room).emit('greetMessage', { user: 'Admin', text: `${user.name} has left.` });
         }
